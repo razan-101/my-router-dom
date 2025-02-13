@@ -1,0 +1,60 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(60, 68, 79);
+    text-align: center;
+    width: 100vw;
+    overflow-x: hidden; 
+  } */
+  
+  /* Header */
+  header {
+    width: 100%;
+    background-color: rgb(43, 19, 89);
+    color: white;
+    padding: 30px 0;
+  }
+  
+  /* Profile Container */
+  .profile-container {
+    width: 100%;
+    min-height: 100vh; /* Allow full content display */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Image */
+  img {
+    width: 50%;
+    max-width: 800px;
+    height: auto;
+    border-radius: 100%;
+    margin: 50px 0;
+  }
+  
+  /* Section styles */
+  .profile-container> h2 {
+    width: 100%;
+    background-color: rgb(74, 95, 131);
+    padding: 20px;
+    font-weight: bolder;
+    color: rgb(92, 182, 182);
+    text-decoration: underline;
+  }
+  
+  p {
+    width: 100%;
+    padding: 50px;
+    font-weight: bolder;
+    font-size: larger;
+    color: whitesmoke;
+    background-color: rgb(56, 55, 87);
+  }
+  
